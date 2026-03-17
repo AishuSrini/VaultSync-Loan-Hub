@@ -35,7 +35,9 @@ cd VaultSync-Loan-Hub
 # **🛠️ Configuration & Deployment**
 Because this is a zero-code Microsoft 365 solution, deployment involves configuring the tenant environments rather than running Python scripts.
 
-📸 Image Suggestion: Upload a screenshot of your SharePoint Document Library showing the Premium Autofill columns (Applicant Name, Loan Amount).
+📸 **SharePoint Document Library showing the Premium Autofill columns (Applicant Name, Loan Amount).**
+<img width="1612" height="857" alt="Screenshot 2026-03-17 at 3 09 47 AM" src="https://github.com/user-attachments/assets/fb0d7a02-80ec-43a9-adae-2ec5968cd049" />
+
 
 **1. SharePoint Environment Configuration:**
 
@@ -63,7 +65,9 @@ KYC_AGENT_PROMPT = "You are a strict compliance officer. You only evaluate appli
 ```
 # **3. Master Orchestrator Configuration (Copilot Studio):**
 
-📸 Image Suggestion: Upload a screenshot of Copilot Studio showing the "Actions" tab with your three SharePoint Agents added.
+📸 **screenshot of Copilot Studio showing the "Agent" section with your three SharePoint Agents added.**
+<img width="1095" height="814" alt="Screenshot 2026-03-17 at 3 19 14 AM" src="https://github.com/user-attachments/assets/10e84738-0c0b-4060-b79c-237ab1fa79e7" />
+
 
 # **Create a Copilot named Master Loan Orchestrator.**
 
@@ -75,7 +79,8 @@ ORCHESTRATOR_PROMPT = "You are the Master Loan Orchestrator. Never answer loan q
 ```
 
 ### **4. Power Automate & Teams Configuration:**
-> 📸 **Image Suggestion:** *Upload a screenshot of your Power Automate flow showing the "When Copilot triggers a flow" step connecting to the Teams Adaptive Card.*
+> 📸 **screenshot of Power Automate flow showing the "When Copilot triggers a flow" step connecting to the Teams Adaptive Card.**
+<img width="1318" height="842" alt="Screenshot 2026-03-17 at 3 22 05 AM" src="https://github.com/user-attachments/assets/432f9dd8-fbe4-47c5-a247-2ff3ecbd4b76" />
 
 Configure your Power Automate flow to trigger from Copilot, populate a Word document, and post to Microsoft Teams:
 ```text
@@ -102,7 +107,9 @@ Click the Copilot icon in the top right corner of your SharePoint site.
 [https://youtu.be/nA5VaHmSwnk] (Insert your YouTube link here)
 
 🧠 # **How it Works**
-📸 Image Suggestion: Upload a GIF or screenshot of the Teams Adaptive Card with the Approve/Reject buttons.
+📸**Screenshot of the Teams Adaptive Card with the Approve/Reject buttons.**
+<img width="1650" height="753" alt="Screenshot 2026-03-17 at 3 25 16 AM" src="https://github.com/user-attachments/assets/b5d6ebe7-dccc-40a8-99ea-e380413f3a33" />
+
 
 **Data Extraction:** Uses SharePoint Premium Autofill to extract metadata from the uploaded loan documents.
 
@@ -124,6 +131,10 @@ Based on I-2 zoning, is an environmental audit required?
 What Risk Tier does a $500,000 loan fall into?
 
 Todo se ve perfecto. Por favor genera el paquete de decisión de préstamo.
+<img width="1650" height="805" alt="Screenshot 2026-03-17 at 3 27 46 AM" src="https://github.com/user-attachments/assets/fcf61f98-ff28-44f6-a1e0-b15d4b3140cd" />
+<img width="1650" height="803" alt="Screenshot 2026-03-17 at 3 31 42 AM" src="https://github.com/user-attachments/assets/4aaabf07-123a-4597-9158-bf5d51d4e0f9" />
+<img width="1646" height="795" alt="Screenshot 2026-03-17 at 3 32 56 AM" src="https://github.com/user-attachments/assets/2e1d2b4f-c382-4ae9-8adf-5d93ac723b75" />
+
 
 👥 # **Contributing**
 Contributions to this project are welcome! To contribute, please follow these steps:

@@ -3,6 +3,7 @@ A zero-code, AI-first loan origination platform using SharePoint Premium and mul
 # 🏦 **VaultSync: Master Agent Loan Origination Hub 🤖🔗**
 
 The **VaultSync Loan Origination Hub** project is an **enterprise-grade implementation of master agent orchestration using Microsoft Copilot Studio and SharePoint**. It leverages various **services such as SharePoint Premium, specialized SharePoint agents, and Power Automate to create an interactive orchestrator** that helps users automate commercial loan underwriting. The system extracts text from loan files, securely passes data via **agent-to-agent communication, and generates decision packages exponentially faster using advanced, multi-language AI models**.
+<img width="2816" height="1536" alt="Gemini_Generated_Image_irred6irred6irre" src="https://github.com/user-attachments/assets/36a59346-a579-451f-95c7-10ac49726939" />
 
 # 🌟 **Features**
 

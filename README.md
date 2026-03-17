@@ -50,7 +50,7 @@ LIBRARY_FOLDERS = [
   '4_Active_Applications'
 ]
 ```
-# **SharePoint Premium:** Configure the 4_Active_Applications folder with Autofill columns to extract Applicant Name, Loan Amount, and Risk Tier upon document upload.
+**SharePoint Premium:** Configure the 4_Active_Applications folder with Autofill columns to extract Applicant Name, Loan Amount, and Risk Tier upon document upload.
 
 # **2. SharePoint Agent Configuration:**
 
@@ -78,7 +78,7 @@ Routing Prompt:
 ORCHESTRATOR_PROMPT = "You are the Master Loan Orchestrator. Never answer loan questions directly. Analyze the user intent and route KYC questions to the KYC Agent, credit to the Credit Agent. Synthesize their responses."
 ```
 
-### **4. Power Automate & Teams Configuration:**
+# **4. Power Automate & Teams Configuration:**
 > 📸 **screenshot of Power Automate flow showing the "When Copilot triggers a flow" step connecting to the Teams Adaptive Card.**
 <img width="1318" height="842" alt="Screenshot 2026-03-17 at 3 22 05 AM" src="https://github.com/user-attachments/assets/432f9dd8-fbe4-47c5-a247-2ff3ecbd4b76" />
 

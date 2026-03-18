@@ -104,7 +104,7 @@ Click the Copilot icon in the top right corner of your SharePoint site.
 
 🤖# **Demo:**
 **Watch a Demo Video:**
-[https://youtu.be/nA5VaHmSwnk] (Insert your YouTube link here)
+[https://youtu.be/nA5VaHmSwnk] Youtube link
 
 🧠 # **How it Works**
 📸**Screenshot of the Teams Adaptive Card with the Approve/Reject buttons.**
